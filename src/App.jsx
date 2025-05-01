@@ -9,6 +9,7 @@ import MyComponent from './components/MyComponent2';
 import Events from './components/Events';
 import ManageData from './components/ManageData';
 import ListRender from './components/ListRender';
+import CondicionalRender from './components/CondicionalRender';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Events/>
       <ManageData/> 
       <ListRender/>
+      <CondicionalRender/>
      
     </div>
   );
