@@ -1,3 +1,4 @@
+// Trabalhar com array de dados e renderizar na tela
 import React, { useState } from 'react';
 
 const ListRender = () => {
@@ -9,7 +10,8 @@ const ListRender = () => {
 
   const deleteRandom = () => {
     const randomNumber = Math.floor(Math.random() * users.length);
-    setUsers((prevUsers) => prevUsers.filter((_, index) => index !== randomNumber));
+    setUsers((prevUsers) =>
+       prevUsers.filter((_, index) => index !== randomNumber));
   };
 
   return (
